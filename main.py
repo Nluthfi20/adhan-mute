@@ -7,8 +7,17 @@ from location import get_location
 from prayer_times import get_today_times, next_prayer
 from mute import mute, unmute, get_current_volume
 
+BANNER = r"""
+   ▄▄   ▄▄▄▄   ▄    ▄   ▄▄   ▄▄   ▄        ▄    ▄ ▄    ▄▄▄▄▄▄▄▄ ▄▄▄▄▄▄
+   ██   █   ▀▄ █    █   ██   █▀▄  █        ██  ██ █    █   █    █
+  █  █  █    █ █▄▄▄▄█  █  █  █ █▄ █        █ ██ █ █    █   █    █▄▄▄▄▄
+  █▄▄█  █    █ █    █  █▄▄█  █  █ █  ▀▀▀   █ ▀▀ █ █    █   █    █
+ █    █ █▄▄▄▀  █    █ █    █ █   ██        █    █ ▀▄▄▄▄▀   █    █▄▄▄▄▄
+"""
+
 
 def run(mute_minutes: int, poll_seconds: int):
+    print(BANNER)
     print("Detecting location...")
     loc = get_location()
     print(f"Location: {loc['city']} ({loc['lat']:.4f}, {loc['lon']:.4f})")
