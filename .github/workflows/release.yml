@@ -43,7 +43,7 @@ jobs:
 
       - name: Rename binary (Windows)
         if: runner.os == 'Windows'
-        run: Rename-Item dist/adhan-mute.exe dist/${{ matrix.asset_name }}
+        run: Move-Item dist/adhan-mute.exe dist/${{ matrix.asset_name }}
 
       - uses: actions/upload-artifact@v4
         with:
